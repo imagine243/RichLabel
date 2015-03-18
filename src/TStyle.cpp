@@ -37,3 +37,9 @@ TStyle * TStyle::clone()
     return style;
     
 }
+
+std::string TStyle::toString()
+{
+	std::string temp;
+	return temp;
+}

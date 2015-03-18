@@ -26,7 +26,7 @@ public:
     virtual TStyleType getType();
     virtual cocos2d::CCNode * createRender();
     virtual TStyle * clone();
-    
+    virtual std::string toString();
     std::string content;
 protected:
 };
